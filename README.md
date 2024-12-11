@@ -791,7 +791,7 @@ function lib:CreateWindow(title)
 		DropOptions.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		DropOptions.BorderColor3 = Color3.fromRGB(0, 0, 0)
 		DropOptions.BorderSizePixel = 0
-		DropOptions.Position = UDim2.new(0.8, 0, 0.0787878788, 0)
+		DropOptions.Position = UDim2.new(0.6, 0, 0.0787878788, 180)
 		DropOptions.Size = UDim2.new(0, 392, 0, 0)
 		DropOptions.Visible = false
 
