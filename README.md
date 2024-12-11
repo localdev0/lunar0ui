@@ -332,7 +332,7 @@ function lib:CreateWindow(title)
 		TitleLabel.Font = Enum.Font.Gotham
 		TitleLabel.Text = title
 		TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-		TitleLabel.TextSize = 18
+		TitleLabel.TextSize = 14
 		TitleLabel.TextTransparency = 0.8
 
 		Items.Name = title
