@@ -357,7 +357,7 @@ function lib:CreateWindow(title)
 			lib:SwitchTab(Tab)
 		end)
 
-		return Tab, Items
+		return Items
 	end
 
 	function lib:SwitchTab(newTab)
@@ -990,8 +990,8 @@ lib:CreateWindow("Lunar")
 ```
 ## Create Tab
 ```lua
-local tab1, tab1 = lib:CreateTab("tes")
-local tab2, tab2 = lib:CreateTab("ing")
+local tab1 = lib:CreateTab("tes")
+local tab2 = lib:CreateTab("ing")
 ```
 ## Create Section (which is a line)
 ```
